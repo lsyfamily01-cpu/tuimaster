@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>推大师 - 数字商品商城</title>
+
+<style>
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f6f7f9;
+    color: #222;
+}
+
+header {
+    background: #ffffff;
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+.banner {
+    text-align: center;
+    padding: 85px 20px;
+    background: #ffffff;
+}
+
+.banner h1 {
+    font-size: 42px;
+}
+
+.banner p {
+    color: #888;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns:
+    repeat(auto-fit, minmax(230px, 1fr));
+    gap: 25px;
+}
+
+.card {
+    background: white;
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 3px 15px rgba(0,0,0,0.04);
+}
+
+.price {
+    color: #1677ff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+button {
+    width: 100%;
+    background: #1677ff;
+    color: white;
+    border: none;
+    padding: 13px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 35px;
+    color: #999;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">推大师</div>
+
+<nav>
+<a href=" ">首页</a >
+<a href="#products">商品</a >
+<a href="#contact">联系我们</a >
+</nav>
+
+</header>
+
+<section class="banner">
+
+<h1>欢迎来到推大师</h1>
+
+<p>专业数字商品与在线服务平台</p >
+
+</section>
+
+<div class="container">
+
+<h2 id="products">热门商品</h2>
+
+<div class="products">
+
+<div class="card">
+
+<h3>数字资料包</h3>
+
+<p>优质数字资源，即买即用。</p >
+
+<div class="price">¥9.90</div>
+
+<br>
+
+<button onclick="alert('商品购买功能正在开发中')">
+立即购买
+</button>
+
+</div>
+
+<div class="card">
+
+<h3>虚拟服务</h3>
+
+<p>提供专业数字化服务。</p >
+
+<div class="price">¥19.90</div>
+
+<br>
+
+<button onclick="alert('商品购买功能正在开发中')">
+立即购买
+</button>
+
+</div>
+
+<div class="card">
+
+<h3>高级会员</h3>
+
+<p>解锁更多专属服务。</p >
+
+<div class="price">¥39.90</div>
+
+<br>
+
+<button onclick="alert('商品购买功能正在开发中')">
+立即购买
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+<footer id="contact">
+
+<p>© 2026 推大师 版权所有</p >
+
+<p>专业数字商品服务平台</p >
+
+</footer>
+
+</body>
+
+</html>
